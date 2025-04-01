@@ -29,7 +29,7 @@ Ensure you have the following installed:
 
 2. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/rental-project.git
+    git clone https://github.com/Gurudutt23/RENTAL-.git
     ```
 
 3. **Move the Project to the XAMPP `htdocs` Folder**:
@@ -41,13 +41,13 @@ Ensure you have the following installed:
 
 5. **Set Up the Database**:
    - Open **phpMyAdmin** in your browser by navigating to `http://localhost/phpmyadmin/`.
-   - Create a new database for your project (e.g., `rental_project`).
+   - Create a new database for your project (e.g., `rental_db`).
    - Import the SQL file from your project directory to set up the required tables in the database.
 
 6. **Configure the Database in the Code**:
-   - Open the project files and configure the database connection in the relevant PHP files (usually in a `config.php` or similar file).
+   - Open the project files and configure the database connection in the relevant PHP files (usually in a `db_con.php` or similar file).
    - Update the database name, username, and password to match your local XAMPP settings.
 
 7. **Access the Project**:
-   - Open your browser and go to `http://localhost/rental-project` to view the website.
+   - Open your browser and go to `http://localhost/main_page.php` to view the website.
    - The website should now be up and running locally.
